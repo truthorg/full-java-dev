@@ -24,7 +24,7 @@ node
  }
  
   /*
- stage("ExecuteSonarQubeReport")
+ stage("ExecuteSonarQubeReport") trigger a change
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
  }
