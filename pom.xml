@@ -95,13 +95,13 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-releases</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://100.27.12.115:8081/repository/mwa-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-snapshots</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
 	      <url>http://100.27.12.115:8081/repository/mwa-snapshots/</url>
 	    </snapshotRepository>
